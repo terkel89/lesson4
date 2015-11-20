@@ -105,3 +105,29 @@ h2 {
 .social-parent {
 	text-align: center;
 }
+
+.rose {
+	float: left;
+}
+
+.rose1 {
+	margin-top: 5%;
+}
+
+.plain-text-2 {
+	text-align: left;
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 15px;
+	color: grey;
+}
+
+.button {
+	position: relative;
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: grey;
+
+}
