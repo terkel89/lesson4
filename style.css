@@ -9,6 +9,12 @@ header {
 	background-size: cover;
 }
 
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
+
 .logo {
 	position: absolute;
 	left: 40px;
@@ -69,6 +75,7 @@ ul {
 .ava {
 	display: block;
 	margin: 0 auto;
+	margin-top: 3%;
 }
 
 h2 {
@@ -112,28 +119,36 @@ h2 {
 
 .rose1 {
 	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .plain-text-2 {
 	text-align: left;
-	display: block;
-	margin-left: 10%;
-	margin-right: 10%;
+	
+	
 	font-size: 15px;
 	color: grey;
 }
 
 .button {
-	position: relative;
 	width: 100px;
 	height: 30px;
-	color: white;
+	border: 1px solid grey;
 	background-color: grey;
+	text-align: center;
+}
+
+.button-text {
+	color: white;
+	vertical-align: middle;
+}
+
 
 }
 .philosophi {
-	position: absolute;
-	margin-top: 10%;
+	clear: both;
+	margin-top: 5%;
 }
 
 .solution {
@@ -149,4 +164,8 @@ h2 {
 	color: grey;
 	font-size: 16px;
 	font-style: italic;
+}
+
+.wrap1 {
+
 }
