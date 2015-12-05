@@ -115,6 +115,7 @@ h2 {
 
 .rose {
 	float: left;
+	width: 25%;
 }
 
 .rose1 {
@@ -123,10 +124,11 @@ h2 {
 	margin-right: 10%;
 }
 
+
+
 .plain-text-2 {
 	text-align: left;
-	
-	
+
 	font-size: 15px;
 	color: grey;
 }
@@ -140,6 +142,7 @@ h2 {
 }
 
 .button-text {
+	text-decoration: none;
 	color: white;
 	vertical-align: middle;
 }
@@ -152,20 +155,50 @@ h2 {
 }
 
 .solution {
-
+	margin-left: 15px;
 }
 
 .layer {
 	float: right;
+	margin-left: 15px;
+	width: 50%;
 }
 
+/*.client {
+	display: block;
+	margin: 0 auto;
+}*/
+
 .i-text {
+	margin: 0 auto;
+	margin-top: 15px;
 	width: 500px;
 	color: grey;
 	font-size: 16px;
 	font-style: italic;
 }
 
-.wrap1 {
+h3 {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
 
+.ocupation {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.play {
+	display: inline-block;
+	margin: 5px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid grey;
+	padding: auto;
+}
+
+.play-parent {
+	text-align: center;
 }
